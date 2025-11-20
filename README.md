@@ -13,12 +13,6 @@ This guide explains how to install and manage your configuration files using the
 The installation script expects the files to be organized in a specific structure inside your repository.
 
 <details>
-<summary>View the Dotfiles Structure and Destination Paths</summary>
-
-The repository structure should look like this:
-
-. ├── install.sh ├── README.md └── Dotfiles/ ├── Config/ │ ├── matugen/ │ ├── waybar/ │ ├── hyprland.conf │ ├── kitty.conf │ ├── rclone.conf │ └── base.yml # Ignored by script ├── Fonts/ │ └── *.ttf, *.otf ├── Music/ │ └── *.mp3 ├── Pictures/ │ └── *.jpg └── Scripts/ └── *.sh
-
 
 ### Breakdown of Installation Actions
 
@@ -41,5 +35,5 @@ These instructions assume you are on an Arch Linux-based distribution and have `
 Clone this repository and navigate to the root directory (where `install.sh` is located).
 
 ```bash
-git clone <your-repo-url> ~/.dotfiles
+git clone https://github.com/ezioalae/Dotfiles ~/.dotfiles
 cd ~/.dotfiles
